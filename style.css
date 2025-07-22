@@ -80,3 +80,57 @@ img:hover{
         grid-template-columns: repeat(auto-fit,minmax(250px,300px));
     }
 }
+.summary {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+}
+.media {
+  display: flex;
+  gap: 1rem;
+}
+.media-left img {
+  max-width: 200px;
+  border-radius: 4px;
+}
+.movie-card h3 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0 ;
+
+}
+
+.movie-card p {
+  color: #ffffff;
+    margin: 0;
+  padding: 0 ;
+}
+@media screen and (max-width: 500px) {
+  .movie-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .movie-card p {
+    font-size: 0.9rem;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  form input,
+  form select,
+  form button {
+    width: 100%;
+  }
+}
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+
